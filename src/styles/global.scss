@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply  bg-slate-700
+          text-white
+          py-24;
+  }
+
+main {
+  @apply  container
+          mx-auto;
+  }
+
+#block {
+  @apply  bg-white/75
+          text-slate-800
+          p-8
+          rounded-xl;
+
+  pre {
+    @apply  inline
+            px-1
+            mx-1
+            bg-white
+            rounded;
+    // display: inline;
+    // margin: 0 0.25em;
+    // padding: 0 0.25em;
+    // background: #fff;
+    // border-radius: 0.25em;
+    }
+  }
